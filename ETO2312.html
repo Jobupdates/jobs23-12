@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETO Job Openings</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7ff;
+            color: #333;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: linear-gradient(to right, #003366, #0066cc);
+            color: white;
+            padding: 20px;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        header img {
+            height: 100px;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        header .date {
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .job {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            background: white;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .job:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .job-details {
+            flex: 3;
+        }
+        .job-details strong {
+            font-size: 1.2rem;
+            color: #003366;
+        }
+        .job-details p {
+            margin: 5px 0;
+        }
+        .share-cv {
+            flex: 1;
+            text-align: right;
+        }
+        .share-cv button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            transition: background 0.3s;
+        }
+        .share-cv button:hover {
+            background: #003366;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: #003366;
+            color: white;
+            border-radius: 15px 15px 0 0;
+        }
+        .footer a {
+            color: #00ffcc;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            color: white;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Companylogo.png" alt="Company Logo">
+        <h1>ETO Job Openings</h1>
+        <p class="date">Updated: 23/12/2024</p>
+    </header>
+    <div class="container">
+        <!-- Job 1 -->
+        <div class="job">
+            <div class="job-details">
+                <strong>Pacific International Lines India (Pte) Ltd</strong>
+                <p>Rank: Electrical Engineer (E/E)</p>
+                <p>Vessel Type: Container Vessel</p>
+                <p>Experience Required: Minimum 6 months</p>
+                <p>RPSL: RPSL/CHN/031 (Valid till 19-July-2028)</p>
+            </div>
+            <div class="share-cv">
+                <button onclick="location.href='https://wa.me/917358456442?text=Hello,%20I%20am%20interested%20in%20the%20Electrical%20Engineer%20position'">
+                    Share via WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="job">
+            <div class="job-details">
+                <strong>Columbia Aurus Ship Management - Kochi</strong>
+                <p>Rank: Electrical Technical Officer (ETO)</p>
+                <p>Vessel Type: LPG</p>
+                <p>Experience Required: Previous experience on LPG vessels</p>
+            </div>
+            <div class="share-cv">
+                <button onclick="location.href='mailto:thahaseen@columbiaaurus.com?subject=Application for ETO&body=Dear Team, I am applying for the ETO position on MR Tanker.'">
+                    Share via Email
+                </button>
+                <button onclick="location.href='https://wa.me/919363586494?text=Hello,%20I%20am%20interested%20in%20the%20ETO%20position%20on%20LPG%20vessel'">
+                    Share via WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="job">
+            <div class="job-details">
+                <strong>JBS Ship Management</strong>
+                <p>Rank: ETO</p>
+                <p>Vessel Type: MR Tanker</p>
+                <p>RPSL: MUM-162181</p>
+                <p>COC Eligibility: Indian, UK, White, and Panama COC accepted</p>
+                <p>Experience Required: Same vessel experience preferred</p>
+                <p>Joining Date: Jan 2025</p>
+            </div>
+            <div class="share-cv">
+                <button onclick="location.href='mailto:crew.jbsship@gmail.com?subject=Application for ETO&body=Dear Team, I am applying for the ETO position on MR Tanker.'">
+                    Share via Email
+                </button>
+                <button onclick="location.href='https://wa.me/919108110056?text=Hello,%20I%20am%20interested%20in%20the%20ETO%20position%20on%20MR%20Tanker'">
+                    Share via WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+      <div class="footer">
+        <p>© 2024 Merchant Navy Decoded Jobs | Contact us at 
+            <a href="https://whatsapp.com/channel/0029VaeWFWW1SWsrJDXXxs06">Whatsapp Channel</a>
+        </p>
+    </div>
+</body>
+</html>
